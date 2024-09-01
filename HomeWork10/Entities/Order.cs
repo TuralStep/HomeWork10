@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public DateOnly OrderDate { get; set; }
-        public int ProductId { get; set; }
-        public int CustomerId { get; set; }
+        public virtual int ProductId { get; set; }
+        public virtual int CustomerId { get; set; }
     }
 }
